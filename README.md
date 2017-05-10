@@ -8,7 +8,7 @@ Make sure you have `elm` and `npm` installed. `npm` usually comes bundled with `
 
 Make sure you are in the root folder of the project, then run:
 
-`npm install`
+`npm install`  
 `elm-package install`
 
 
@@ -16,7 +16,7 @@ Make sure you are in the root folder of the project, then run:
 
 Right now you need to have 2 separate processes if you want to run and watch both the server and the elm code.
 
-To run and watch elm code: `npm run elm`
+To run and watch elm code: `npm run elm`  
 To run and watch server: `npm run server`
 
 You should now see something at localhost:3000, if it compiles
