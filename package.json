@@ -1,0 +1,30 @@
+{
+  "name": "elm-themed-hack-night-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "elm": "chokidar 'elm/*.elm' -c 'elm make elm/Main.elm --output ./public/app.js' --initial",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsaele/elm-themed-hack-night-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsaele/elm-themed-hack-night-2/issues"
+  },
+  "homepage": "https://github.com/jsaele/elm-themed-hack-night-2#readme",
+  "devDependencies": {
+    "chokidar-cli": "^1.2.0",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "path": "^0.12.7"
+  }
+}
